@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 11, 2022 alle 11:45
+-- Generation Time: Mar 11, 2022 alle 11:53
 -- Versione del server: 8.0.21
 -- PHP Version: 5.6.40
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `InformaticaES` (
   `Password` varchar(50) NOT NULL,
   `Email` varchar(75) NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci AUTO_INCREMENT=1 ;
 
 --
 -- Dump dei dati per la tabella `InformaticaES`
