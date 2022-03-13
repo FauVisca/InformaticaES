@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <title>
+        Forget Password
+    </title>
+</head>
+
+<body>
+    <div class="center">
+        <form action="passowrd.php">
+            <h1>Complete all fields</h1>
+            <div class="inputbox">
+                <input type="text" name="user" placeholder="Username">
+            </div>
+            <div class="inputbox">
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <div class="inputbox">
+                <button type="submit" onclick="notifica()">SEND</button>
+            </div>
+            <script>
+                function notifica() {
+                    alert("Email invia! Controlla la tua posta");
+                }
+            </script>
+        </form>
+    </div>
+</body>
+
+</html>
